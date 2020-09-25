@@ -37,6 +37,9 @@ ca ca.crt
 verb 5
 auth-user-pass
 ```
+
+=============== Some vpn client as below ===============
+
 Windows:
 ```
 On Windows, you will need the official OpenVPN Community Edition binaries which come with a GUI. 
