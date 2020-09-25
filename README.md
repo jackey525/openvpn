@@ -50,12 +50,16 @@ macOS:
 On macOS, the open source application Tunnelblick provides an interface similar to the OpenVPN GUI on Windows, 
 and comes with OpenVPN and the required TUN/TAP drivers. 
 
-As with Windows, the only step required is to place your .ovpn configuration file into the ~/Library/Application Support/Tunnelblick/Configurations directory. 
+As with Windows, the only step required is to place your .ovpn configuration file into 
+the ~/Library/Application Support/Tunnelblick/Configurations directory. 
+
 Alternatively, you can double-click on your .ovpn file.
 ```
 Linux:
 ```
-On Linux, you should install OpenVPN from your distribution’s official repositories. You can then invoke OpenVPN by executing:
+On Linux, you should install OpenVPN from your distribution’s official repositories. 
+
+You can then invoke OpenVPN by executing:
 
 $ sudo openvpn --config ~/path/to/client.ovpn
 ```
