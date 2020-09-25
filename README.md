@@ -27,15 +27,15 @@ $ vi client.ovpn
 ```
 client
 dev tun
-proto udp
-remote remoteIP 1194
-resolv-retry infinite
+proto udp               # protocol
+remote remoteIP 1194    # set ip and port
+resolv-retry infinite   
 nobind
 persist-key
 persist-tun
-ca ca.crt
+ca ca.crt               # ca (path to cert)
 verb 5
-auth-user-pass
+auth-user-pass          # use user/pass method to login
 ```
 
 =============== Some vpn client as below ===============
