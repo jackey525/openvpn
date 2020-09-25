@@ -66,3 +66,9 @@ You can then invoke OpenVPN by executing:
 
 $ sudo openvpn --config ~/path/to/client.ovpn
 ```
+
+=============== description ===============
+
+checkpsw.sh        #  login script
+psw-file           #  user password file 
+auto_gen_user.sh   #  auto 10 passwords that are generated with 10 digits
