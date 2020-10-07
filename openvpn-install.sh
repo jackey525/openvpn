@@ -94,6 +94,7 @@ username-as-common-name' > $OPENVPN_DIR/server.conf
 # modify priority
 chmod 775 $OPENVPN_DIR/psw-file
 chmod +x $OPENVPN_DIR/checkpsw.sh
+touch $OPENVPN_DIR/openvpn-password.log
 
 echo "net.ipv4.ip_forward = 1" >>/etc/sysctl.conf
 sysctl --system
